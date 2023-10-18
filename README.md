@@ -54,23 +54,23 @@ Before you begin, ensure you have met the following requirements:
    ```
    
 2. Navigate to the project directory:
-  ```
-  cd busybuy-main
-  ```
+   ```
+   cd busybuy-main
+   ```
 
 3. Install the required dependencies:
-  ```
-  npm install
-  ```
+   ```
+   npm install
+   ```
 
 4. Set up Firebase:
 - Create a Firebase project and Firestore database.
 - Configure Firebase in the project and replace the Firebase configuration in your code.
   
 5. Start the development server:
-  ```
-  npm start
-  ```
+   ```
+   npm start
+   ```
 
 ## Usage
 
