@@ -32,9 +32,11 @@
 }
 
 .appName div{
+    position: absolute;
+    top: 30%;
+    left: 50%;
     color: aliceblue;
     font-family: 'Pixelify Sans', sans-serif;
-    margin-left: 40rem;
 }
 
 
