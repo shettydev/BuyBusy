@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+
+/* ============================== MyOrder.js ===========================  */
+
+/* main container of the page */
+.mainContainer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* heading of the page */
+.orderHeading{
+    color:black;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* list of all the order's in user's database */
+.orderListContainer{
+    width: 75%;
+}
+
+.mainContainer a{
+    font-size: 1.2rem;
+    text-decoration: underline;
+    font-weight: 700;
+    color: #cb75c8;
+}
+
+
+/* ================================ OrderList.js ========================== */
+
+
+/* single order container */
+.orderListContainer > div{
+    padding: 5px;
+    width: 100%;
+    border-radius: 4px;
+    margin: 10px;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+
+/* table inside the order list */
+table{
+    width: 100%;
+    font-weight: 600;
+    border-collapse: collapse;
+    color: black;
+}
+
+/* table's cell style */
+th,td{
+    background-color: skyblue;
+    border:2px solid #d2ebf1d6;
+    padding: 15px;
+}
+
+/* table heading color */
+th{
+    color: navy;
+}
+

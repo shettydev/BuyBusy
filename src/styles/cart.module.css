@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+/* ========================== Cart.js ========================  */
+
+/* page's maincontainer */
+.mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ /* div within the mainContainer */
+.mainContainer > div {
+    margin: 15px;
+    width: 100%;;
+}
+
+/* cart page header containing cart details */
+.header{
+    height: 60px;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    padding:25px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #57577a;
+    border-radius: 5px;
+}
+
+/* styles for cart detail inside header */
+.header small, .cartDetail{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/*  cartDetail container */
+.cartDetail{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* div inside cart detail */
+.cartDetail > div{
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+/*  button inside cart detail */
+.cartDetail button{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    color: white;
+}
+
+/* common styles for button inside the cart detail */
+
+/* purchase button */
+.purchaseAll{
+    outline: 0;
+    grid-gap: 8px;
+    align-items: center;
+    background-color: rgb(95, 95, 255);
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-flex;
+    flex-shrink: 0;
+    font-size: 16px;
+    gap: 8px;
+    justify-content: center;
+    line-height: 1.5;
+    overflow: hidden;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    transition: all .14s ease-out;
+    white-space: nowrap;
+}
+
+/* style on hover over button */
+.purchaseAll:hover{
+    box-shadow: 4px 4px 0 #000;
+    transform: translate(-4px,-4px);
+}
+
+.purchaseAll:focus-visible{
+    outline-offset: 1px;
+}
+
+.removeAll{
+    outline: 0;
+    grid-gap: 8px;
+    align-items: center;
+    background-color: red;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-flex;
+    flex-shrink: 0;
+    font-size: 16px;
+    gap: 8px;
+    justify-content: center;
+    line-height: 1.5;
+    overflow: hidden;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    transition: all .14s ease-out;
+    white-space: nowrap;
+}
+.removeAll:hover {
+    box-shadow: 4px 4px 0 #000;
+    transform: translate(-4px,-4px);
+}
+.removeAll:focus-visible{
+    outline-offset: 1px;
+}
+
+
+
+
+/* ================================ CartItem.js ========================= */
+
+
+/* image container within the product card */
+.imageContainer{
+    height: 70%;
+}
+
+/* image inside the container */
+.imageContainer img{
+    height: 100%;
+    width: 100%;
+}
+
+/* product info */
+.itemInfo{
+    width: 100%;
+    height: 30%;
+}
+
+/* div inside product info */
+.itemInfo > div{
+    width: 100%;
+    overflow: hidden;
+    text-overflow:ellipsis ;
+}
+
+/* name and price container */
+.namePrice{
+    height: 26%;
+    font-size: 1rem;
+}
+
+/* price and quantity container */
+.priceQuant{
+    height: 37%;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(0, 152, 86);
+}
+
+.price{
+    font-family: 'Archivo Black', sans-serif;
+    padding-right: 0.75rem;
+}
+
+/* product quantity */
+.quantity{
+    margin-left: 6em;
+}
+
+/* reduce quantity */
+.minus{
+    color:red;
+}
+
+/* increase quantity */
+.plus{
+    color:rgb(95, 95, 255);
+}
+
+/* button container */
+.btnContainer{
+  height: 97%;  
+  margin-top: -9px;
+  margin-left: 20px;
+}
+
+.removeBtn {
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.removeBtn:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.removeBtn:active {
+  transform: scale(0.95);
+}

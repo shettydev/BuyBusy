@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Jost', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-width: 950px;
+  background-color: white;
+  background-attachment: fixed;
+}
+
+/* Button styles */
+button{
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 0px #555;
+  border-radius: 4px;
+}
+
+
+/* Input styles */
+input:focus{
+  outline: none;
+}
+
+/* Links style */
+a{
+  text-decoration: none;
+}
+
+/* Icons Style */
+i{
+  cursor: pointer;
+}

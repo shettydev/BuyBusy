@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@700&display=swap');
+
+/* Main container of the navbar */
+.navbarContainer {
+    background-image: linear-gradient(to right, #333, #111); /* Darker gradient */
+    width: 90%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    color: aliceblue;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* App name inside navbar */
+
+.navbarContainer:hover{
+    color: lightskyblue;
+}
+
+.appName a:hover {
+    color: lightblue;
+}
+
+.appName div{
+    color: aliceblue;
+    font-family: 'Pixelify Sans', sans-serif;
+    margin-left: 40rem;
+}
+
+
+.appName img {
+    position: absolute;
+    width: 4%;
+    top: 4%;
+    left: 45%;
+}
+
+.welcomeMsg{
+    position: absolute;
+    font-family: 'Changa', sans-serif;
+    margin-left: -2em;
+    color: lightskyblue;
+}
+
+/* All the navigating links */
+.navLinks {
+    float: right;
+    margin-right: -3.5em;   
+}
+
+/* Single link within the navlink */
+.navLinks span {
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+/* Styling link */
+.navLinks a {
+        color: aliceblue;
+}
+
+/* Style on hover over the link */
+.navLinks a:hover {
+    color: lightblue;
+}
+
+.navLinks img {
+    height: 30px;
+    width: 30px;
+}
+  
