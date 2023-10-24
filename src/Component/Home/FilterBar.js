@@ -13,8 +13,8 @@ export default function FilterBar(props) {
       <div className={styles.priceRange}>
 
         {/* Sub Heading */}
-        <span>Price</span>
-        {` => ${price}`}
+        <span>Range</span>
+
         <br />
 
         {/* Slider  */}
@@ -25,6 +25,7 @@ export default function FilterBar(props) {
           value={price}
           onChange={(e) => setPrice(e.target.value)}
         />
+        {` 🔽 ₹ ${price} 🔼 `}
       </div>
 
 
