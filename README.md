@@ -80,5 +80,6 @@ Before you begin, ensure you have met the following requirements:
 - View your order history and manage your account.
 
 ## Author
+
 *Prathik Shetty* - **Full Stack Developer**
 
